@@ -3,12 +3,12 @@
   "publisher": "zxz-moe",
   "icon": "icon.png",
   "displayName": "bis",
-  "description": "Plugin for developing Apple ecosystem using bazel with rules_bis(https://github.com/xinzhengzhang/bis)",
+  "description": "Plugin for developing Apple ecosystem using bazel with rules_bis(https://github.com/ixerol/bis)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xinzhengzhang/bis"
+    "url": "https://github.com/ixerol/bis"
   },
-  "version": "0.4.0",
+  "version": "0.4.1",
   "engines": {
     "vscode": "^1.73.0"
   },
