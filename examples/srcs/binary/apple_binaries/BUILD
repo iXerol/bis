@@ -1,5 +1,5 @@
 load(
-    "@build_bazel_rules_apple//apple/internal:apple_universal_binary.bzl", "apple_universal_binary",
+    "@rules_apple//apple/internal:apple_universal_binary.bzl", "apple_universal_binary",
 )
 apple_universal_binary(
     name = "universal_binary",

@@ -1,9 +1,9 @@
 load(
-    "@build_bazel_rules_apple//apple:macos.bzl",
+    "@rules_apple//apple:macos.bzl",
     "macos_application",
 )
 load(
-    "@build_bazel_rules_apple//apple:versioning.bzl",
+    "@rules_apple//apple:versioning.bzl",
     "apple_bundle_version",
 )
 

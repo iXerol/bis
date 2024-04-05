@@ -1,4 +1,4 @@
-load("@build_bazel_rules_apple//apple:providers.bzl", "AppleBundleInfo")
+load("@rules_apple//apple:providers.bzl", "AppleBundleInfo")
 load("//:bisproject_aspect.bzl", "bis_aspect")
 load("//:providers.bzl", "BisProjInfo")
 

@@ -1,6 +1,6 @@
 load(":providers.bzl", "BisProjInfo")
 load("@build_bazel_rules_swift//swift:swift.bzl", "SwiftInfo")
-load("@build_bazel_rules_apple//apple:providers.bzl", "IosXcTestBundleInfo", "AppleTestInfo", "AppleResourceInfo")
+load("@rules_apple//apple:providers.bzl", "IosXcTestBundleInfo", "AppleTestInfo", "AppleResourceInfo")
 
 def _should_ignore_attr(attr):
     return (

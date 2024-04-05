@@ -1,4 +1,4 @@
-load("@build_bazel_rules_apple//apple:apple.bzl", "experimental_mixed_language_library")
+load("@rules_apple//apple:apple.bzl", "experimental_mixed_language_library")
 
 experimental_mixed_language_library(
     name = "module_d",

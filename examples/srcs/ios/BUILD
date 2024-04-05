@@ -3,7 +3,7 @@ load("@build_bazel_rules_swift//swift:swift.bzl",
 )
 
 load(
-  "@build_bazel_rules_apple//apple:ios.bzl",
+  "@rules_apple//apple:ios.bzl",
   "ios_application",
 )
 

@@ -4,7 +4,7 @@ bis_rules_dependencies()
 
 # rules_apple_dependencies
 load(
-    "@build_bazel_rules_apple//apple:repositories.bzl",
+    "@rules_apple//apple:repositories.bzl",
     "apple_rules_dependencies",
 )
 
